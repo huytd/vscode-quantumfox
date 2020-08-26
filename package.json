@@ -1,0 +1,24 @@
+{
+    "name": "quantumfox",
+    "displayName": "quantumfox",
+    "description": "Firefox Quantum Plus Color Theme",
+    "publisher": "huytd",
+    "repository": "https://github.com/huytd/vscode-quantumfox",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Firefox Quantum Plus Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Firefox Quantum Plus Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
